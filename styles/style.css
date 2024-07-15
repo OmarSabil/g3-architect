@@ -116,7 +116,20 @@ main > section{
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
     .navbar {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
+    }
+    .teams{
+        flex-direction: column-reverse;
+    }
+    .team-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-features{
+        margin: 10px;
+        text-align: center;
+    }
+    .team-feature-description{
+        padding: 10px;
     }
 }
