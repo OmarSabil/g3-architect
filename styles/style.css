@@ -141,6 +141,11 @@ main > section{
     margin: 0;
 }
 
+/* Our Sponsors */
+.sponsor-logos{
+    display: flex;
+}
+
 
 
 
@@ -172,5 +177,5 @@ main > section{
     .fact, .team-container > img{
         margin: 10px auto;
     }
-    
+
 }
