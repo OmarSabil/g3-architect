@@ -153,14 +153,24 @@ main > section{
     .teams{
         flex-direction: column-reverse;
     }
-    .team-container{
+    .team-container, .fact-cards{
+        width: 350px;
+        margin: 0 auto;
         grid-template-columns: repeat(1, 1fr);
     }
-    .team-features{
+    .team-features, .section-title{
         margin: 10px;
         text-align: center;
     }
-    .team-feature-description{
+    .team-feature-description, .card-description{
         padding: 10px;
+        text-align: center;
     }
+    .team-features .btn-primary{
+        margin: 50px;
+    }
+    .fact, .team-container > img{
+        margin: 10px auto;
+    }
+    
 }
